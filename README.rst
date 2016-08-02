@@ -6,6 +6,8 @@ Docker driver for OpenStack Nova.
 
 Free software: Apache license
 
+nova docker resize and cold migrate
+
 基于原来的加入 Resize 与 冷迁移功能，
 
 Resize 限于本机， 冷迁移可以指定 HOST。
