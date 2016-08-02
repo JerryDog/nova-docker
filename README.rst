@@ -7,7 +7,15 @@ Docker driver for OpenStack Nova.
 Free software: Apache license
 
 基于原来的加入 Resize 与 冷迁移功能，
-Resize 限于本机， 冷迁移可以指定 HOST
+
+Resize 限于本机， 冷迁移可以指定 HOST。
+
+nova-docker\novadocker\virt\docker\driver.py
+
+中的 PRIVATE_REPOSITORY 私有仓库地址自行配置。
+
+所有计算节点需配置无密码登录及 hosts 解析。
+
 
 ----------------------------
 Installation & Configuration
